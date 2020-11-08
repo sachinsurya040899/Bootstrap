@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dropdown</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../Fonts/css/all.css">
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </head>
+    <body class="container-fluid">
+        <h2>Amazon Shopping</h2>
+        <div class="btn-toolbar bg-danger">
+          <div class="btn-group btn-group-vertical">
+            
+            <div class="dropdown">
+                <button class="btn btn-danger">
+                    <span class="fa fa-home"></span> 
+                    Home
+                </button>
+                <button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">
+                    Choose a Category
+                </button>
+                <div class="dropdown-menu">
+                    <a href="../Pages/electronics.html" target="frameBody" class="dropdown-item">
+                        <span class="fa fa-tv"></span> Electronics
+                    </a>
+                    <a href="../Pages/fashion.html" target="frameBody" class="dropdown-item">
+                        <span class="fa fa-tshirt"></span> Fashion
+                    </a>
+                    <a href="../Pages/footwear.html" target="frameBody" class="dropdown-item">
+                        <span class="fa fa-shoe-prints"></span> Footwear
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">more..</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <section>
+            <iframe style="border:none" height="400" name="frameBody" width="100%"></iframe>
+        </section>
+    </body>
+</html>

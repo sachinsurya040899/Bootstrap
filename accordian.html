@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dropdown</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../Fonts/css/all.css">
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <style>
+            .btn-toolbar {
+                width: 200px;
+            }
+            .btn-group {
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body class="container-fluid">
+        <div class="btn-toolbar bg-danger">
+            <div class="btn-group btn-group-vertical">
+                <div class="dropdown">
+                  <button type="button" data-toggle="dropdown" class="btn btn-danger btn-block dropdown-toggle">
+                    Electronics
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right bg-danger text-light">
+                      <li><a href="#" class="dropdown-item">TV</a></li>
+                      <li><a href="#" class="dropdown-item">Mobile</a></li>
+                      <li><a href="#" class="dropdown-item">Earpods</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
